@@ -1,0 +1,25 @@
+.admin  {
+    background-color: black;
+}
+.admin h1{
+    color: lightgreen;
+    text-align: center;
+}
+.admin .forms-container{
+    display: flex;
+}
+.admin .form{
+    flex: 1;
+    max-width: 500px;
+    border: 1px solid lightgreen;
+    padding: 20px 30px;
+    border-radius: 5px;
+    text-align: left;
+}
+.admin .form div{
+    margin-bottom: 9px;
+}
+
+.admin .form .h3{
+    color: darkgreen;
+}

@@ -28,3 +28,14 @@
 .product label {
     font-weight: bold; 
 }
+
+.product .prices{
+    display: flex;
+}
+
+.product .prices label{
+    flex: 1;
+}
+.product .total{
+    color: darkred;
+}

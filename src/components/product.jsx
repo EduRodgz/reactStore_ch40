@@ -14,11 +14,17 @@ function Product(props){
 
             <img src={"./images/" + props.data.image} alt=""></img>
             <h5>{props.data.title}</h5>
-            <label>{props.data.price}</label>
-            <label>Total</label>
+
+            <div className="prices">
+            <label className="total">${props.data.price.toFixed(2)}</label>
+            <label className="price">${props.data.price.toFixed(2)}</label>
+            </div>
+
             <QuantityPicker/>
+
+            <button className="btn btn-sm btn-success">Add</button>
         </div>
-    )
+    );
 }
 
 

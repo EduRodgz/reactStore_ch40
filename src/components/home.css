@@ -1,0 +1,11 @@
+.home{
+    background-color: black;
+}
+
+.home h1{
+    color: rgb(17, 68, 17);
+}
+.home h5{
+    color: rgb(17, 68, 17);
+    margin-bottom: 0;
+}

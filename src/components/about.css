@@ -1,0 +1,20 @@
+.about{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(141, 140, 140);
+}
+
+.about h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: rgb(31, 68, 24);
+    border: 1px solid rgb(141, 140, 140);
+}
+
+.about h3{
+    color: rgb(100, 100, 100);
+    border: 1px solid rgb(141, 140, 140);
+}
+
+.about h5{
+    color: rgb(100, 100, 100);
+    border: 1px solid rgb(141, 140, 140);
+}

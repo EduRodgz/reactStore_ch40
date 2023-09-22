@@ -1,0 +1,30 @@
+
+.product {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    background-color: black;
+
+}
+
+.product > div {
+    flex-basis: calc(8% - 23px);
+    margin: 20px; 
+    text-align: center;
+    background-color: black;
+}
+
+.product img {
+    max-width: 5%; 
+    opacity: 50%;
+}
+
+.product h5 {
+    padding: 150px 0; 
+    background-color: black;
+}
+
+.product label {
+    font-weight: bold; 
+}

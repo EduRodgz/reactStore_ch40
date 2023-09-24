@@ -4,3 +4,18 @@
     background-color: rgb(88, 88, 88);
     text-align: center;
 }
+
+.navbar .user-info{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 3px 7px 0 5px;
+}
+
+.navbar .user-info i{
+    font-size: 20px;
+    color: grey;
+
+}

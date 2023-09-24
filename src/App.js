@@ -8,13 +8,16 @@ import Cart from './pages/cart';
 import Admin from './pages/admin';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
+import GlobalState from './state/globalState';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 
 function App(){
   return (
     <div className="App">
+      <GlobalState>
       <BrowserRouter>
       <Navbar/>
       
@@ -29,6 +32,7 @@ function App(){
 
       <Footer/>
       </BrowserRouter>
+      </GlobalState>
     </div>
     
   );

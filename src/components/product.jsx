@@ -35,7 +35,7 @@ function Product(props){
 
             <QuantityPicker onChange={onQuantityChange} />
 
-            <button onCick={handleAdd}className="btn btn-sm btn-success">Add</button>
+            <button onCick={handleAdd}className="btn btn-sm btn-success"><i class="fa-solid fa-plus"></i>Add</button>
         </div>
     );
 }

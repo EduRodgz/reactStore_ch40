@@ -1,9 +1,12 @@
 import "./product.css";
+import StoreContext from "../state/storeContext";
 import QuantityPicker from "./quantityPicker";
-import {useEffect, useState} from "react";
+import {useContext, useEffect, useState} from "react";
 
 function Product(props){
     const [quantity, setQuantity] = useState(1);
+    const addProductToCart = useContext(StoreContext).addProductToCart;
+    
     useEffect(function(){
         console.log("component loaded");
     },[]);
@@ -19,7 +22,8 @@ function Product(props){
     }
 
     function handleAdd(){
-        console.log('Message');
+        let prodForCart = {...props.data};
+        addProductToCart();
     }
 
     return(

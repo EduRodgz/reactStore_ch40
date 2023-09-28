@@ -22,8 +22,9 @@ function Product(props){
     }
 
     function handleAdd(){
-        let prodForCart = {...props.data};
-        addProductToCart();
+        let prodForCart = {...props.data}; //how to create copies of objects in JS using spread operators
+        prodForCart.quantity = quantity;
+        addProductToCart(prodForCart);
     }
 
     return(
@@ -39,7 +40,7 @@ function Product(props){
 
             <QuantityPicker onChange={onQuantityChange} />
 
-            <button onCick={handleAdd}className="btn btn-sm btn-success"><i class="fa-solid fa-plus"></i>Add</button>
+            <button onClick={handleAdd} className="btn btn-sm btn-success"><i class="fa-solid fa-plus"></i>Add</button>
         </div>
     );
 }

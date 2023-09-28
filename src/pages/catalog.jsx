@@ -51,7 +51,7 @@ function Catalog(props) {
   return (
     <div className="catalog">
       <h1>Check out our {products.length} products</h1>
-      <br />
+      <br/>
       {categories.map((c) => (
         <button
           key={c}

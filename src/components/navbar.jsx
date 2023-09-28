@@ -1,10 +1,11 @@
 import { useContext } from "react";
 import "./navbar.css";
-import {Link} from 'react-router-dom';
 import StoreContext from "../state/storeContext";
+import {Link} from 'react-router-dom';
 
 function Navbar(){
   let user = useContext(StoreContext).user;
+  let cart = useContext(StoreContext).cart;
   
     return (
         <nav className="navbar navbar-expand-lg">
@@ -62,7 +63,7 @@ function Navbar(){
         <label>{user.name}</label>
         </div>
 
-        <Link className="btn btn-outline-light" to="/cart">Cart<i class="fa-solid fa-cart-arrow-down"></i></Link>
+        <Link className="btn btn-outline-light" to="/cart"> {cart.length} <i class="fa-solid fa-cart-arrow-down"></i></Link>
       </form>
     </div>
   </div>

@@ -1,0 +1,36 @@
+.cart-product{
+    color: grey;
+    display: flex;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 20px 0 20px;
+    padding: 5px 10px;
+    
+}
+.cart-product img{
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+}
+.cart-product .info{
+    color: white;
+    display: column;
+
+}
+.cart-product .total{
+    font-weight: bold;
+    display: column;
+    color: red;
+
+}
+.cart-product .price{
+    color: darkgreen;
+}
+.cart-product .quantity{
+    color: white
+}
+.cart-prodcut label{
+    flex: 1 ;
+}

@@ -43,13 +43,13 @@ function Admin() {
   <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     Charity
   </button>
-  <ul class="dropdown-menu dropdown-menu-dark">
-    <li><a class="dropdown-item" href="#">Army</a></li>
-    <li><a class="dropdown-item" href="#">Marines</a></li>
-    <li><a class="dropdown-item" href="#">Navy</a></li>
-    <li><a class="dropdown-item" href="#">Air Force</a></li>
-    <li><a class="dropdown-item" href="#">Space Force</a></li>
-  </ul>
+  <select class="form-select">
+    <option value="Army">Army</option>
+    <option value="Marines">Marines</option>
+    <option value="Navy">Navy</option>
+    <option value="AirForce">Air Force</option>
+    <option value="SpaceForce">Space Force</option>
+  </select>
 </div>
         <div>
     <label className="form-label">Amount</label>

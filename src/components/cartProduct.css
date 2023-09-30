@@ -27,9 +27,11 @@
 }
 .cart-product .price{
     color: darkgreen;
+    padding: 10px;
 }
 .cart-product .quantity{
-    color: white
+    color: white;
+    padding: 10px;
 }
 .cart-prodcut label{
     flex: 1 ;

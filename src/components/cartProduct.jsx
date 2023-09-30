@@ -16,9 +16,11 @@ function CartProduct(props){
         <p>{props.data.category}</p>
         </div>
 
-        <label className="price">{props.data.price}</label>
-        <label className="quantity">{props.data.quantity}</label>
-        <label className="total">${getTotal()}</label>
+        <label className="price">Price: ${props.data.price}</label>
+        
+        <label className="quantity">Qty: ({props.data.quantity})</label>
+        
+        <label className="total">Total: ${getTotal()}</label>
     </div>
     );
 }

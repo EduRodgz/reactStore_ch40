@@ -10,7 +10,7 @@ function Cart(){
         <div className="cart">
             <h1>Cart</h1>
             <h3>Insert card or select payment type</h3>
-            <h3>You have {cart.length} product's in your cart.</h3>
+            <h3>You have ({cart.length}) product's in your cart.</h3>
 
             <div className="prod-list">
             {cart.map((prod) => <CartProduct key={prod._id} data={prod} />)}

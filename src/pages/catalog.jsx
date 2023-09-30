@@ -68,7 +68,7 @@ function Catalog(props) {
       <br />
       <button
         onClick={clearFilter}
-        className="btn bnt-small btn-dark btn-filter"
+        className="btn bnt-small btn-success btn-filter"
       >
         Clear
       </button>

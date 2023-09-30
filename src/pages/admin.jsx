@@ -185,9 +185,13 @@ function Admin() {
             {allDonations.map((d) => (<li key={d.donation} className="output">{d.donation} - ${d.amount} </li>))}
           </ul>
           </div>
+          
         </div>
+        
       </div>
+      <button type = "button" className="btn btn-success clear-button">Clear Cart</button>
     </div>
+    
   );
 }
 

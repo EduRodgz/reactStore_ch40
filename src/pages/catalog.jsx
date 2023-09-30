@@ -23,7 +23,7 @@ function Catalog(props) {
       "Boots",
       "Blouse",
       "Socks",
-      "Trousers",
+      "Trouser",
       "Band",
       "Underwear",
     ];

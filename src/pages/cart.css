@@ -1,6 +1,10 @@
 .cart{
+    flex: 1;
     background-color: rgb(0, 0, 0);
-    padding: 20px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 1px;
+    border: 1px solid rgb(0, 255, 85);
     
 }
 
@@ -26,11 +30,7 @@
     margin-right: 10px;
 }
 
+.cart-container {
+    display: flex;
 
-.cart-product {
-    border: 1px solid #09e214;
-    padding: 20px;
-    margin: 20px;
-    max-width: 350px;
-    text-align: center;
 }

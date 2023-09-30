@@ -6,4 +6,5 @@
 .catalog{
     background-color: black;
     color: lightgreen;
+    border: 1px solid green;
 }

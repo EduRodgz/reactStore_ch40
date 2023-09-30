@@ -16,6 +16,7 @@ function Cart(){
             <div className="prod-list">
             {cart.map((prod) => <CartProduct key={prod._id} data={prod} />)}
             </div>
+        <button type = "button" className="btn btn-success clear-button">Clear Cart</button>
         </div>
         </div>
     );

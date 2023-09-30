@@ -1,25 +1,42 @@
 .admin  {
     background-color: black;
+    
 }
+
 .admin h1{
-    color: lightgreen;
+    color: rgb(0, 120, 0);
     text-align: center;
 }
 .admin .forms-container{
     display: flex;
+    
 }
 .admin .form{
     flex: 1;
-    max-width: 500px;
-    border: 1px solid lightgreen;
-    padding: 20px 30px;
-    border-radius: 5px;
-    text-align: left;
+    max-width: 700px;
+    border: 1px solid rgb(0, 255, 85);
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    
 }
 .admin .form div{
-    margin-bottom: 9px;
+    margin-bottom: 50px;
 }
 
 .admin .form .h3{
     color: darkgreen;
+}
+.admin .form-select{
+    margin-top: 50px;
+}
+.admin .output{
+    color: rgb(0, 255, 0);
+}
+.admin .output-title{
+    color: rgb(0, 120, 0);
+}
+.admin .output-save{
+    margin-top: 10px;
+    color: rgb(0, 255, 85);
 }

@@ -1,8 +1,9 @@
 .navbar{
     font: rgb(40, 128, 76);
     border: 2px solid rgb(143, 167, 145);
-    background-color: rgb(88, 88, 88);
+    background-color: black(88, 88, 88);
     text-align: center;
+    
 }
 
 .navbar .user-info{

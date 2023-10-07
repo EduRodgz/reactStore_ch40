@@ -1,5 +1,7 @@
+import DataService from "../services/dataService";
 import "./admin.css";
 import { useState } from 'react';
+
 
 
 function Admin() {
@@ -15,6 +17,10 @@ function Admin() {
   
   function handleSaveProduct(){
     console.log(product);
+    let fixedProd ={...product};
+    fixedProd.price = parseFloat(fixedProd.price);
+    let service = new DataService();
+    service.saveProduct(fixedProd);
 
     let copy = [...allProducts];
     copy.push(product);
@@ -104,7 +110,7 @@ function Admin() {
           <div>
             <label className="form-label output ">Image</label>
             <input
-            value= "" disabled
+            
               type="text"
               onChange={productChange}
               name="image"

@@ -35,7 +35,7 @@ function Product(props){
 
             <div className="prices">
                 <label className="total">${getTotal()}</label>
-                <label className="price">${props.data.price.toFixed(2)}</label>
+                <label className="price">${parseFloat(props.data.price).toFixed(2)}</label>
             </div>
 
             <QuantityPicker onChange={onQuantityChange} />
